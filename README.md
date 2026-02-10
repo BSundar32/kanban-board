@@ -1,3 +1,29 @@
+Kanban Board (React + Tailwind)
+
+Features:
+- Three columns: To Do, In Progress, Done
+- Drag & drop via `react-beautiful-dnd`
+- Global state using Context API
+- Persistence in `localStorage`
+- TailwindCSS for styling
+
+Quick start:
+
+1. Install dependencies:
+
+```bash
+npm install
+```
+
+2. Start dev server:
+
+```bash
+npm start
+```
+
+Notes:
+- After installing, Tailwind will be available. If you add new classes and don't see styles, restart the dev server.
+- The app stores tasks in localStorage under key `kanban_tasks_v1`.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
